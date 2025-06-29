@@ -1,4 +1,4 @@
-
+ """
 # Sentiment Analysis with TextBlob (Python)
 
 This is a simple Python script that performs **sentiment analysis** using the `TextBlob` library. It evaluates whether a given text is **positive**, **negative**, or **neutral**.
@@ -31,11 +31,8 @@ def analyze_sentiment(text):
         return "Neutral"
 
 post = "I love python! It's amazing."
-print("Sentiment:", analyze_sentiment(post))```
-
----
-
-## 🧪 Output
+print("Sentiment:", analyze_sentiment(post))
+🧪 Example Output
 makefile
 Always show details
 
@@ -44,7 +41,7 @@ Sentiment: Positive
 ⚙️ Requirements
 Python 3.6+
 
-Install TextBlob:
+Install TextBlob and its corpora:
 
 bash
 Always show details
@@ -52,14 +49,3 @@ Always show details
 Copy
 pip install textblob
 python -m textblob.download_corpora
-
-
-Sentiment: Positive
-⚙️ Requirements
-Python 3.6+
-
-Install TextBlob:
-
----
-
-
