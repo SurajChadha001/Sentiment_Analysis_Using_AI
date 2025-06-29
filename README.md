@@ -32,6 +32,8 @@ def analyze_sentiment(text):
 
 post = "I love python! It's amazing."
 print("Sentiment:", analyze_sentiment(post))
+
+'''
 🧪 Output
 makefile
 Always show details
