@@ -31,7 +31,7 @@ def analyze_sentiment(text):
         return "Neutral"
 
 post = "I love python! It's amazing."
-print("Sentiment:", analyze_sentiment(post))
+print("Sentiment:", analyze_sentiment(post))```
 
 ---
 
